@@ -1,4 +1,4 @@
-# Hi there, I'm Mohammad Saqib Manan 👋
+# Hi there, I'm Saqib 👋
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/saqibmanan)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/saqibmanan)
@@ -7,13 +7,13 @@
 
 ## 🚀 About Me
 
-I'm a **Quality Assurance Engineer** with 4+ years of experience in manual and automated testing. Currently working at **CivicDataLab**, where I lead end-to-end testing efforts for high-impact platforms focused on data for public good.
+I'm a **Quality Assurance Engineer** with 4.7 years of experience in manual and automated testing. Currently working at **CivicDataLab**, where I lead end-to-end testing efforts for high-impact platforms focused on data for public good.
 
-- 🔭 Currently working on **India Datasets Platform (IDP)** and **IDS-DRR Platform**
+- 🔭 Currently working on **CivicDataSPace**, **ParakhAI** and **IDS-DRR Platform**
 - 🌱 Passionate about **test automation**, **CI/CD pipelines**, and **quality culture**
 - 💡 Experienced in building scalable QA frameworks from scratch
 - 🎯 Achieved **90% test automation** and **25% deployment speed improvement**
-- 📍 Based in **Gurgaon, India**
+- 📍 Based in **Delhi, India**
 
 ---
 
@@ -21,10 +21,7 @@ I'm a **Quality Assurance Engineer** with 4+ years of experience in manual and a
 
 ### Languages & Frameworks
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-![Cypress](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white)
-![Cucumber](https://img.shields.io/badge/Cucumber-23D96C?style=for-the-badge&logo=cucumber&logoColor=white)
 
 ### Testing & API Tools
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
