@@ -9,7 +9,7 @@
 
 I'm a **Quality Assurance Engineer** with 4.7 years of experience in manual and automated testing. Currently working at **CivicDataLab**, where I lead end-to-end testing efforts for high-impact platforms focused on data for public good.
 
-- 🔭 Currently working on **CivicDataSPace**, **ParakhAI** and **IDS-DRR Platform**
+- 🔭 Currently working on **CivicDataSpace**, **ParakhAI** and **IDS-DRR**
 - 🌱 Passionate about **test automation**, **CI/CD pipelines**, and **quality culture**
 - 💡 Experienced in building scalable QA frameworks from scratch
 - 🎯 Achieved **90% test automation** and **25% deployment speed improvement**
@@ -46,8 +46,8 @@ I'm a **Quality Assurance Engineer** with 4.7 years of experience in manual and 
 ### Quality Assurance Engineer @ CivicDataLab
 **Jun 2023 - Present** | Delhi, India
 
-- Led quality testing of **India Datasets Platform (IDP)** and **Girl Education Finance Tracker** with 90% automation coverage
-- Managed testing for **IDS-DRR platform** involving 5 major components from scratch
+- Leading quality testing for **CivicDataSpace**, **ParakhAI**, and **IDS-DRR** platforms
+- Previously led testing of **India Datasets Platform (IDP)** and **Girl Education Finance Tracker** with 90% automation coverage
 - Increased test efficiency by **55%** through Selenium/WebDriver automation
 - Performed **1000+ API tests** using Postman and JMeter
 - Designed scalable QA framework resulting in **25% deployment speed increase**
