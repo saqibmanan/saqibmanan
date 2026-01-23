@@ -31,6 +31,7 @@ I'm a **Quality Assurance Engineer** with 4.7 years of experience in manual and 
 ### Project Management & Tracking
 ![JIRA](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
 ![Trello](https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white)
+![ClickUp](https://img.shields.io/badge/ClickUp-7B68EE?style=for-the-badge&logo=clickup&logoColor=white)
 ![ALM](https://img.shields.io/badge/HP_ALM-0096D6?style=for-the-badge&logo=hp&logoColor=white)
 
 ### DevOps & Version Control
