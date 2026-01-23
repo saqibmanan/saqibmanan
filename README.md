@@ -104,3 +104,4 @@ I'm a **Quality Assurance Engineer** with 4+ years of experience in manual and a
   <i>Passionate about quality assurance, sustainability, and technology.</i><br>
   <i>Let's connect and build reliable software together!</i>
 </p>
+
