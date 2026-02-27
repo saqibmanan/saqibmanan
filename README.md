@@ -7,7 +7,7 @@
 
 ## 🚀 About Me
 
-I'm a **Quality Assurance Engineer** with 4.7 years of experience in manual and automated testing. Currently working at **CivicDataLab**, where I lead end-to-end testing efforts for high-impact platforms focused on data for public good.
+I'm a **Quality Assurance Engineer** with 4.8 years of experience in manual and automated testing. Currently working at **CivicDataLab**, where I lead end-to-end testing efforts for high-impact platforms focused on data for public good.
 
 - 🔭 Currently working on **CivicDataSpace**, **ParakhAI** and **IDS-DRR**
 - 🌱 Passionate about **test automation**, **CI/CD pipelines**, and **quality culture**
