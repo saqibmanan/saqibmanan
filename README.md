@@ -80,10 +80,10 @@ I treat QA as engineering — self-healing test suites, cross-repo CI triggers, 
 ## Beyond the Code
 
 - 🎤 **Represented CivicDataLab at India AI Summit 2026**
-- 🎤 **Organised ParakhAI Workshop** — Participatory Algorithmic Auditing, Delhi 2025
-- 🏔️ **Organised [Institutional Development Index and Data Management] Workshop** — McLeodganj, 2025
+- 🎪 **Organised CivicSabha 2** — International Conference on Data for Public Good, Feb 2026
+- 🎪 **Organised ParakhAI Workshop** — Participatory Algorithmic Auditing, Delhi 2025
+- 🏔️ **Organised Institutional Development Index and Data Management Workshop** — McLeodganj, 2025
 - 🌍 **Represented CivicDataLab at WSDS** (World Sustainable Development Summit), Delhi 2024
-- 🎪 **Co-organised CivicSabha 2** — International Conference on Data for Public Good, Feb 2026
 - 🎪 **Organised CivicSabha 1** — International Conference on Data for Public Good, Delhi 2023
 
 ---
