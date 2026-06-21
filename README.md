@@ -1,92 +1,101 @@
-# Hi there, I'm Saqib 👋
+# Saqib Manan
+
+**Senior SDET & DevOps Engineer** · Delhi, India
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/msaqibmanan/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://www.github.com/saqibmanan)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:saqibmanan6@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/saqibmanan)
 ![Profile Views](https://komarev.com/ghpvc/?username=saqibmanan&color=blueviolet&style=flat)
 
-## 🚀 About Me
+---
 
-I'm a **Quality Assurance Engineer** with 4.8 years of experience in manual and automated testing. Currently working at **CivicDataLab**, where I lead end-to-end testing efforts for high-impact platforms focused on data for public good.
+## About
 
-- 🔭 Currently working on **CivicDataSpace**, **ParakhAI** and **IDS-DRR**
-- 🌱 Passionate about **test automation**, **CI/CD pipelines**, and **quality culture**
-- 💡 Experienced in building scalable QA frameworks from scratch
-- 🎯 Achieved **90% test automation** and **25% deployment speed improvement**
-- 📍 Based in **Delhi, India**
+I build the systems that catch bugs before your users do.
+
+SDET and DevOps engineer with 5+ years across AI platforms, civic-data infrastructure, and digital banking. Currently the sole quality engineer at **CivicDataLab**, owning automation, CI/CD, and release QA across three production platforms under the IndiaAI Mission and beyond.
+
+I treat QA as engineering — self-healing test suites, cross-repo CI triggers, multi-layer coverage, and AI-assisted test generation using Claude Code, Codex, and Playwright MCP.
 
 ---
 
-## 🛠️ Tech Stack & Tools
+## What I'm Working On
 
-### Languages & Frameworks
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+| Platform | What it is | My role |
+|---|---|---|
+| [ParakhAI](https://github.com/CivicDataLab/ParakhAI_test) | IndiaAI Mission algorithmic-auditing framework | 5-layer Playwright + pytest framework (E2E, accessibility, visual, API, performance) |
+| [IDS-DRR](https://github.com/CivicDataLab/IDS-DRR-QA-Automation) | Multi-state disaster-risk analytics | Self-healing Selenium suite, cross-repo GitHub Actions trigger |
+| [CivicDataSpace](https://github.com/CivicDataLab/CivicDataSpace-test) | Open civic-data exchange | Selenium POM framework, auto-generated JSON/MD/PDF reports with screenshots |
+
+---
+
+## Tech Stack
+
+**Test Automation**
+
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-
-### Testing & API Tools
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JMeter](https://img.shields.io/badge/Apache_JMeter-D22128?style=for-the-badge&logo=apache&logoColor=white)
-![UFT](https://img.shields.io/badge/UFT-0096D6?style=for-the-badge&logo=microfocus&logoColor=white)
 
-### Project Management & Tracking
-![JIRA](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
-![Trello](https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white)
-![ClickUp](https://img.shields.io/badge/ClickUp-7B68EE?style=for-the-badge&logo=clickup&logoColor=white)
-![ALM](https://img.shields.io/badge/HP_ALM-0096D6?style=for-the-badge&logo=hp&logoColor=white)
+**CI/CD & DevOps**
 
-### DevOps & Version Control
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI/CD-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+
+**Testing Specialisms**
+
+- API & GraphQL contract testing
+- Accessibility (WCAG 2.1 AA)
+- Visual regression
+- Mobile-responsive web automation
+- Performance testing & load testing
+
+**AI-Assisted QA**
+
+- Claude Code · Codex · Playwright MCP as autonomous test-generation agents
 
 ---
 
-## 💼 Experience
+## Experience
 
-### Quality Assurance Engineer @ CivicDataLab
-**Jun 2023 - Present** | Delhi, India
+**Quality Assurance Engineer (SDET & DevOps)** · CivicDataLab · Jun 2023 – Present · Delhi, India
 
-- Leading quality testing for **CivicDataSpace**, **ParakhAI**, and **IDS-DRR** platforms
-- Previously led testing of **India Datasets Platform (IDP)** and **Girl Education Finance Tracker** with 90% automation coverage
-- Increased test efficiency by **55%** through Selenium/WebDriver automation
-- Performed **1000+ API tests** using Postman and JMeter
-- Designed scalable QA framework resulting in **25% deployment speed increase**
+- Sole quality engineer across three production platforms, owning the full QA and DevOps stack
+- Built five-layer Playwright + pytest framework for ParakhAI (IndiaAI Mission)
+- Engineered self-healing Selenium suite for IDS-DRR, auto-triggered on every frontend deploy
+- QA-adjacent DevOps: GitHub Actions, Docker, AWS (EC2/S3/RDS/ECR), Nginx
 
-### System Engineer @ Tata Consultancy Services
-**Jul 2021 - May 2023** | Gurgaon, India
+**System Engineer — QA** · Tata Consultancy Services · Jul 2021 – May 2023 · India
 
-- Executed **200+ test cases** using JIRA, ARD, and ALM
-- Improved defect resolution time by **30%** for Citibank's digital services
-- Ensured seamless rollout of customer enrollment and account servicing features
+- Tested Citibank's digital banking platform in an Agile delivery model
+- Functional, regression, and integration testing for high-availability financial features
 
 ---
 
-## 🏆 Key Achievements
+## Beyond the Code
 
-- 🎯 **90% Test Automation** - Led automation initiatives achieving high coverage
-- 🚀 **25% Faster Deployments** - Designed scalable QA framework
-- 📊 **50% Platform Stability Improvement** - Identified critical issues early
-- 🎤 **Organized Participatory Algorithmic Auditing Workshop** - Delhi, 2025
-- 🌍 **Represented at WSDS (World Sustainable Development Summit)** - Delhi, 2024
-- 🎪 **Organized International Conference on Data for Public Good** - Delhi, 2023
+- 🎤 **Represented CivicDataLab at India AI Summit 2026**
+- 🎤 **Organised ParakhAI Workshop** — Participatory Algorithmic Auditing, Delhi 2025
+- 🏔️ **Organised [Institutional Development Index and Data Management] Workshop** — McLeodganj, 2025
+- 🌍 **Represented CivicDataLab at WSDS** (World Sustainable Development Summit), Delhi 2024
+- 🎪 **Co-organised CivicSabha 2** — International Conference on Data for Public Good, Feb 2026
+- 🎪 **Organised CivicSabha 1** — International Conference on Data for Public Good, Delhi 2023
 
 ---
 
-## 🎯 What I Do
+## Education
 
-```
-✅ Build test automation frameworks from scratch
-✅ Design and execute API & UI test suites
-✅ Implement CI/CD pipelines for continuous testing
-✅ Lead sprint planning and defect management
-✅ Onboard teams and establish quality standards
-✅ Performance testing with JMeter
-```
+**B.Tech, Electronics & Communication Engineering**
+Shri Mata Vaishno Devi University (SMVDU) · 2017 – 2021
 
 ---
 
 <p align="center">
-  <i>Passionate about quality assurance, sustainability, and technology.</i><br>
-  <i>Let's connect and build reliable software together!</i>
+  <i>Open to Senior SDET / QA Automation roles where automation, CI/CD, and AI-assisted tooling actually matter.</i><br><br>
+  <i>DMs open · saqibmanan6@gmail.com</i>
 </p>
-
