@@ -120,6 +120,19 @@ I also run a 59-URL health monitor across current and legacy projects, and I upg
 
 ---
 
+## Agentic AI Engineering
+
+I run **Claude Code as an autonomous engineering agent**, not as a chat window. It works from a per-repo `CLAUDE.md`, plans before it acts, splits exploration across subagents, triages bugs with evidence, and records a lesson after every correction.
+
+- **pr-test-sync**: after a product PR merges, it reads the diff, writes matching tests in the right test repo, checks that they can actually fail, and opens a draft PR
+- **board-card**: turns finished or planned work into a correctly placed GitHub issue on the right project board and sprint, with every field set. It ships as a Claude Code plugin
+- **gh-sprint-planner**: a generic GitHub Projects v2 tool that creates sprints, fills them, and rolls them up across boards
+- **Second Brain**: a deterministic knowledge index over my workspace. It answers the same lookups in **0.46s** that took the default approach **226s and 577k tokens**
+- **[gopub](https://github.com/saqibmanan/gopub)**: a pre-flight check before making a private repo public. It scans the working tree and the full git history for secrets, weak defaults and forbidden files
+- **Playwright MCP**: lets agents explore the live UI and generate tests from it
+
+---
+
 ## Tech Stack
 
 **Test Automation**
