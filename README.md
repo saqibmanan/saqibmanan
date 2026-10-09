@@ -72,6 +72,20 @@ test_call_it_flaky_without_evidence .......... XFAIL
 
 ---
 
+## 💼 Experience
+
+**CivicDataLab** · Jun 2023 – Present
+`QA Engineer` → `Senior QA Engineer` (2024) → `SDET` (2025) → **`Senior SDET & DevOps Engineer`** (Apr 2026)
+
+- Sole quality engineer across three production platforms. I own the full QA and DevOps stack
+- Built the five-layer Playwright framework for ParakhAI and the self-healing Selenium suite for IDS-DRR
+- Own the deploy pipelines (GitHub Actions, Docker, AWS), where the tests decide whether a release ships
+
+**Tata Consultancy Services** · System Engineer, QA · Jul 2021 – May 2023
+- Tested Citibank's digital banking platform in an Agile delivery model: functional, regression and integration testing
+
+---
+
 <p align="center">
   <a href="https://www.linkedin.com/in/msaqibmanan/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:saqibmanan6@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"></a>
