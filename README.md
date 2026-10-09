@@ -243,6 +243,7 @@ Shri Mata Vaishno Devi University (SMVDU) · 2017 – 2021
 ---
 
 <p align="center">
-  <i>Open to Senior SDET / QA Automation roles where automation, CI/CD, and AI-assisted tooling actually matter.</i><br><br>
+  <i>Happy to talk test architecture, CI/CD gating, or agentic QA tooling.</i><br>
+  <i>Open to <b>Senior SDET · QA Automation · DevOps / Platform</b> roles where automation, CI/CD, and AI-assisted tooling actually matter.</i><br><br>
   <i>DMs open · saqibmanan6@gmail.com</i>
 </p>
