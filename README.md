@@ -34,13 +34,50 @@ I treat QA as engineering. A test that can't fail isn't a test. A deploy that ca
 
 ---
 
-## What I'm Working On
+## Quality Engineering
 
-| Platform | What it is | My role |
+| Platform | What it is | Framework |
 |---|---|---|
-| [ParakhAI](https://github.com/CivicDataLab/ParakhAI_test) | IndiaAI Mission algorithmic-auditing framework | 5-layer Playwright + pytest framework (E2E, accessibility, visual, API, performance) |
-| [IDS-DRR](https://github.com/CivicDataLab/IDS-DRR-QA-Automation) | Multi-state disaster-risk analytics | Self-healing Selenium suite, cross-repo GitHub Actions trigger |
-| [CivicDataSpace](https://github.com/CivicDataLab/CivicDataSpace-test) | Open civic-data exchange | Selenium POM framework, auto-generated JSON/MD/PDF reports with screenshots |
+| [**ParakhAI**](https://github.com/CivicDataLab/ParakhAI_test) | IndiaAI Mission platform for participatory algorithmic auditing | Playwright + pytest, 5 test layers, Keycloak SSO multi-user fixtures |
+| [**IDS-DRR**](https://github.com/CivicDataLab/IDS-DRR-QA-Automation) | Disaster-risk analytics across 5 Indian states | Selenium with self-healing locators, YAML-driven multi-state tests, sharded CI |
+| [**CivicDataSpace**](https://github.com/CivicDataLab/CivicDataSpace-test) | Open civic-data exchange (datasets, AI models, use cases) | Selenium POM for consumer and provider journeys, GraphQL API tests, PDF/MD reports |
+
+<details>
+<summary><b>ParakhAI: five test layers in one repo</b></summary>
+
+- **E2E**: Playwright + pytest, organised in three layers: `tests/` holds assertions only, `pages/` holds page objects, `locators/` holds raw selectors
+- **Accessibility**: axe-core against WCAG 2.1 AA on every key page, with third-party violations tracked separately
+- **Visual regression**: pixel-diff baselines on desktop, tablet and mobile viewports
+- **API**: GraphQL through a shared, session-cached auth client
+- **Performance**: Chrome DevTools Protocol and Navigation Timing (load time, TTFB, LCP, throttled 3G)
+- **Sandbox-gated write tests**: these skip unless a sandbox org is configured, so production data can't be changed by accident
+- **Test-data tooling**: seed, bulk cleanup and gated hard-reset scripts, all built on the same GraphQL client
+- **Bug ledger**: every skip or `xfail` links to a numbered product bug with repro steps and GraphQL-level evidence
+
+</details>
+
+<details>
+<summary><b>IDS-DRR: self-healing and data-driven</b></summary>
+
+- **Self-healing locators**: if a locator fails, the framework falls back through other strategies, and locators that work are saved to `learned_locators.json` for next time
+- **Multi-state by config**: there is one YAML file per state. Adding a state means adding a file, with no code change
+- **State auto-discovery**: a script crawls a live deployment and generates the state's config
+- **Sharded CI**: `pytest-split` × `pytest-xdist`, capped at the concurrency where the dev server starts falling over
+- **Cross-repo triggers**: every frontend deploy fires `repository_dispatch`, which runs smoke tests on dev and the full suite on prod
+- **Beyond functional tests**: accessibility, performance, load, security and responsive suites, plus a 15-minute availability probe that files an incident when an upstream service goes down
+
+</details>
+
+<details>
+<summary><b>CivicDataSpace: breadth and reporting</b></summary>
+
+- 11 numbered provider smoke flows, from login to collaborative creation, for both individual and organisation paths
+- Test-data factories with timestamped, varchar-aware values, so tests can run in parallel across several test accounts
+- REST and GraphQL API tests, enum-parity checks against codegen, search-after-publish consistency tests
+- Report pipeline: per-suite JSON → merged report → Markdown and styled PDF with failure screenshots
+- `pending_pr` marker: a test written against an open PR skips until that PR merges, so coverage can land before the code does without turning CI red
+
+</details>
 
 ---
 
