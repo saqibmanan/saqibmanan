@@ -133,6 +133,17 @@ I run **Claude Code as an autonomous engineering agent**, not as a chat window. 
 
 ---
 
+## Engineering Principles
+
+1. **Prod gets read-only tests.** Write-side tests run against dev and sandboxes only.
+2. **A test must be able to fail.** Before a new test ships, I prove it catches the bug it was written for.
+3. **Every skip has a ticket.** No unexplained `skip` or `xfail` stays in the suite.
+4. **Deploys verify and revert themselves.** A health check that only returns 200 doesn't count as verification.
+5. **Evidence before verdict.** I check the data, the logs and the load before calling something a product bug or a flake.
+6. **Write it down.** Runbooks belong in the repo. They shouldn't live only in my head.
+
+---
+
 ## Tech Stack
 
 **Test Automation**
