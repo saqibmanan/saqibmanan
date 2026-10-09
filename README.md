@@ -201,17 +201,26 @@ AWS: ECS · EC2 · ECR · S3 · RDS · CloudFormation · SSM · IAM/OIDC  ·  Re
 
 ## Experience
 
-**Quality Assurance Engineer (SDET & DevOps)** · CivicDataLab · Jun 2023 – Present · Delhi, India
+**CivicDataLab** · Delhi, India · Jun 2023 – Present
 
-- Sole quality engineer across three production platforms, owning the full QA and DevOps stack
-- Built five-layer Playwright + pytest framework for ParakhAI (IndiaAI Mission)
-- Engineered self-healing Selenium suite for IDS-DRR, auto-triggered on every frontend deploy
-- QA-adjacent DevOps: GitHub Actions, Docker, AWS (EC2/S3/RDS/ECR), Nginx
+| Role | Period |
+|---|---|
+| **Senior SDET & DevOps Engineer** | Apr 2026 – Present |
+| SDET | 2025 – Mar 2026 |
+| Senior QA Engineer | 2024 – 2025 |
+| QA Engineer | Jun 2023 – 2024 |
 
-**System Engineer — QA** · Tata Consultancy Services · Jul 2021 – May 2023 · India
+
+- Sole quality engineer across three production platforms. I own test strategy, the frameworks, CI, and release sign-off
+- Built the 5-layer Playwright framework for ParakhAI (IndiaAI Mission) and the self-healing, multi-state Selenium suite for IDS-DRR
+- Own deployments and platform operations: test-gated CD across 7 services, most with automatic rollback, on AWS (ECS, EC2, CloudFormation, SSM), GHCR/ECR and Keycloak
+- Built AI-agent tooling (pr-test-sync, board-card, gh-sprint-planner) so new merges get matching tests and sprint boards stay current without manual upkeep
+- Fill PM and tech-lead gaps when needed: scrums, grooming, acceptance criteria, sprint planning across 4 project boards
+
+**System Engineer, QA** · Tata Consultancy Services · Jul 2021 – May 2023 · India
 
 - Tested Citibank's digital banking platform in an Agile delivery model
-- Functional, regression, and integration testing for high-availability financial features
+- Ran functional, regression and integration testing for high-availability financial features, using a hybrid Cucumber (BDD) + Selenium + UFT framework
 
 ---
 
