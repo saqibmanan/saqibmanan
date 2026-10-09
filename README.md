@@ -1,6 +1,8 @@
 # Mohammad Saqib Manan
 
-**Senior SDET & DevOps Engineer** · Delhi, India
+**Senior SDET & DevOps Engineer** · Test Automation · CI/CD · Cloud · CivicDataLab · Delhi, India
+
+*I build the test systems that catch bugs before users do, and the deploy pipelines that refuse to ship them.*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/msaqibmanan/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:saqibmanan6@gmail.com)
@@ -11,11 +13,11 @@
 
 ## About
 
-I build the systems that catch bugs before your users do.
+I have 5+ years in quality engineering, across AI platforms, civic-data infrastructure and digital banking. At **CivicDataLab** I own quality and delivery end to end for three production platforms, one of them under the IndiaAI Mission. The test frameworks are mine, and so are the CI/CD pipelines that run them and the deploy gates that use their results.
 
-SDET and DevOps engineer with 5+ years across AI platforms, civic-data infrastructure, and digital banking. Currently the sole quality engineer at **CivicDataLab**, owning automation, CI/CD, and release QA across three production platforms under the IndiaAI Mission and beyond.
+I treat QA as engineering. A test that can't fail isn't a test. A deploy that can't roll itself back isn't finished. I don't call a bug "flaky" until I have evidence.
 
-I treat QA as engineering — self-healing test suites, cross-repo CI triggers, multi-layer coverage, and AI-assisted test generation using Claude Code, Codex, and Playwright MCP.
+**Focus areas:** Test Automation · Quality Engineering · Shift-Left & Continuous Testing · CI/CD · DevOps · Release Engineering · AWS Cloud · Infrastructure as Code · Observability · Agentic AI & LLM tooling
 
 ---
 
