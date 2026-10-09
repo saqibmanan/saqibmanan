@@ -144,6 +144,18 @@ I run **Claude Code as an autonomous engineering agent**, not as a chat window. 
 
 ---
 
+## Currently Learning
+
+| Area | Goal |
+|---|---|
+| **Terraform** | Move from CloudFormation to Terraform, one infra slice at a time |
+| **Kubernetes · Helm · EKS** | Migrate services off EC2 + Compose onto EKS |
+| **OpenTelemetry → APM → Kibana** | Turn on the observability stack, define SLIs/SLOs, add alerting |
+| **k6** | Performance baselines for critical flows, run in CI |
+| **OWASP security testing** | Automated security checks in CI |
+
+---
+
 ## Tech Stack
 
 **Test Automation**
