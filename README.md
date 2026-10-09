@@ -86,9 +86,24 @@ test_call_it_flaky_without_evidence .......... XFAIL
 
 ---
 
+## 🎪 Beyond the Code
+
+- 🎤 **Represented CivicDataLab at India AI Summit 2026**
+- 🎪 **Organised CivicSabha 2** — International Conference on Data for Public Good, Feb 2026
+- 🎪 **Organised ParakhAI Workshop** — Participatory Algorithmic Auditing, Delhi 2025
+- 🏔️ **Organised Institutional Development Index and Data Management Workshop** — McLeodganj, 2025
+- 🌍 **Represented CivicDataLab at WSDS** (World Sustainable Development Summit), Delhi 2024
+- 🎪 **Organised CivicSabha 1** — International Conference on Data for Public Good, Delhi 2023
+
+---
+
+## 🎓 Education
+
+**B.Tech, Electronics & Communication Engineering** · Shri Mata Vaishno Devi University (SMVDU) · 2017 – 2021
+
+---
+
 <p align="center">
-  <a href="https://www.linkedin.com/in/msaqibmanan/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:saqibmanan6@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"></a>
-  <img src="https://komarev.com/ghpvc/?username=saqibmanan&color=blueviolet&style=flat" alt="Profile views"><br>
-  <i>Open to Senior SDET · QA Automation · DevOps roles. Happy to talk test architecture, CI/CD, or agentic QA.</i>
+  <i>Open to Senior SDET · QA Automation · DevOps roles where automation, CI/CD, and AI-assisted tooling actually matter.</i><br>
+  <i>Happy to talk test architecture, CI/CD, or agentic QA · saqibmanan6@gmail.com</i>
 </p>
