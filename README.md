@@ -21,6 +21,19 @@ I treat QA as engineering. A test that can't fail isn't a test. A deploy that ca
 
 ---
 
+## By the Numbers
+
+| | |
+|---|---|
+| **3** | production test frameworks I designed and built from scratch: Playwright and Selenium, Python-first |
+| **5** | test layers in one repo for ParakhAI: E2E, accessibility, visual regression, API, performance |
+| **732** | tests in the ParakhAI suite, run in parallel across 2 user roles for full-platform sign-off |
+| **7** | services I put on automated, test-gated CD (most with automatic rollback) |
+| **110** | WCAG 2.1 AA checks in the CivicDataSpace accessibility suite (48 real failures surfaced) |
+| **~1,140** | commits across product, test and infra repos in Jul–Sep 2026 |
+
+---
+
 ## What I'm Working On
 
 | Platform | What it is | My role |
