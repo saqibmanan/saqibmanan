@@ -81,6 +81,45 @@ I treat QA as engineering. A test that can't fail isn't a test. A deploy that ca
 
 ---
 
+## Delivery & Platform
+
+I've owned deployments and platform operations since January 2026. Every product follows the same rule: **dev gets every test, prod only gets read-only tests, and any failure rolls back on its own.**
+
+```mermaid
+flowchart LR
+    A[PR merged to dev] --> B[Build image] --> C[Deploy dev]
+    C --> D{Smoke suite}
+    D -- fail --> R1[Auto-rollback]
+    D -- pass --> E[PR dev → main]
+    E --> F{Full regression gate}
+    F -- pass --> G[Deploy prod]
+    G --> H{Read-only prod tests}
+    H -- fail --> R2[Auto-rollback]
+```
+
+| Service | How it ships |
+|---|---|
+| DataSpace backend | AWS ECS + CloudFormation, explicit migration task, smoke gate, auto-rollback, commit-SHA traceability |
+| DataSpace frontend | Releases/symlink deploys, health-check rollback, smoke gate |
+| ParakhAI frontend + API | Build, deploy, smoke dispatch, auto-rollback, `/health/` and `/health/ready/` probes |
+| IDS-DRR | GHCR images over SSH, smoke-gated, auto-rollback |
+| Analytics (Superset) | AWS SSM-based deploys with GitHub OIDC, dev and prod legs, test coverage |
+| Keycloak theme | Containerised, GHCR build, staging → prod from `main`, scheduled auth tests |
+
+I also run a 59-URL health monitor across current and legacy projects, and I upgraded Keycloak (24 → 26.7) and moved it to a new domain, with test coverage on both products.
+
+<details>
+<summary><b>Root-cause stories</b></summary>
+
+- **P0 database pool exhaustion.** CI had been polluted by it for weeks. I watched `pg_stat_activity` live during a CI run and found the cause: a dev `runserver` serving production-shaped load. I moved it to supervised gunicorn to match the prod config, and added an idle-session timeout and Sentry.
+- **A blank dashboard with every health signal green.** When the backend moved to images, the uploaded-media mount was quietly dropped, leaving 2,000+ files invisible. Health checks passed, but users would have seen an empty dashboard. Smoke tests now check content as well as status codes.
+- **75 CI "failures" that were noise.** The cause was concurrency against a shared dev backend, not product bugs. I serialised the suites and set a concurrency cap, which saved the team a full false-alarm triage cycle.
+- **CI that passed without testing anything.** Some runs skipped everything and still reported a pass. Other tests sat inside string literals and never ran. I turned silent skips into failures and brought the hidden tests back, so a green CI result now means the tests ran and passed.
+
+</details>
+
+---
+
 ## Tech Stack
 
 **Test Automation**
